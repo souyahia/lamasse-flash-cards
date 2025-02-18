@@ -9,12 +9,90 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #121212;
-    --foreground: #e5e5e5;
+    --background: #f8f8fc;
+    --foreground: #0d0e1c;
+
+    --primary-50: #DDDDEF;
+    --primary-100: #CFCFE8;
+    --primary-200: #B4B4DB;
+    --primary-300: #9998CE;
+    --primary-400: #7D7DC0;
+    --primary-500: #6261b3;
+    --primary-600: #484794;
+    --primary-700: #36356F;
+    --primary-800: #232349;
+    --primary-900: #111123;
+    --primary-950: #080810;
+    --primary: var(--primary-500);
+
+    --secondary-50: #FFFFFF;
+    --secondary-100: #FFFFFF;
+    --secondary-200: #FCF8FB;
+    --secondary-300: #EEDCED;
+    --secondary-400: #E1C1DE;
+    --secondary-500: #D4A5D0;
+    --secondary-600: #C27FBC;
+    --secondary-700: #B059A8;
+    --secondary-800: #8D4387;
+    --secondary-900: #673163;
+    --secondary-950: #542851;
+    --secondary: var(--secondary-500);
+
+    --accent-50: #FFFFFF;
+    --accent-100: #F8F1F5;
+    --accent-200: #EBD5E1;
+    --accent-300: #DEBACD;
+    --accent-400: #D09EBA;
+    --accent-500: #C383A6;
+    --accent-600: #B15D8B;
+    --accent-700: #90466E;
+    --accent-800: #6A3351;
+    --accent-900: #442134;
+    --accent-950: #321826;
+    --accent: var(--accent-500);
   }
 }
 
 [data-theme="dark"] {
-  --background: #121212;
-  --foreground: #e5e5e5;
+  --background: #030307;
+  --foreground: #ecedf8;
+
+  --primary-50: #C1C1E1;
+  --primary-100: #B4B3DA;
+  --primary-200: #9997CD;
+  --primary-300: #7D7CC0;
+  --primary-400: #6260B3;
+  --primary-500: #4E4C9E;
+  --primary-600: #3B3A78;
+  --primary-700: #292852;
+  --primary-800: #16152C;
+  --primary-900: #030306;
+  --primary-950: #000000;
+  --primary: var(--primary-500);
+
+  --secondary-50: #C07CBB;
+  --secondary-100: #BA6EB3;
+  --secondary-200: #AD53A5;
+  --secondary-300: #91458B;
+  --secondary-400: #763870;
+  --secondary-500: #5A2B56;
+  --secondary-600: #341932;
+  --secondary-700: #0E070D;
+  --secondary-800: #000000;
+  --secondary-900: #000000;
+  --secondary-950: #000000;
+  --secondary: var(--primarsecondaryy-500);
+
+  --accent-50: #D19FBA;
+  --accent-100: #CA91B0;
+  --accent-200: #BD769D;
+  --accent-300: #AF5A89;
+  --accent-400: #974974;
+  --accent-500: #7C3C5F;
+  --accent-600: #562A42;
+  --accent-700: #301725;
+  --accent-800: #0B0508;
+  --accent-900: #000000;
+  --accent-950: #000000;
+  --accent: var(--accent-500);
 }
