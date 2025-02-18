@@ -3,7 +3,7 @@ import "dayjs/locale/fr";
 
 import dayjs from "dayjs";
 
-import { INITIAL_LOCALE } from "../i18n/locales";
+import { INITIAL_LOCALE } from "@/lib/i18next/locales";
 
 function simplifyLocaleCode(localeCode: string): string {
   return localeCode.substring(0, 2);

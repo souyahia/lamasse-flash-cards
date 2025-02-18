@@ -1,6 +1,6 @@
 import "@/global.css";
-import "@/services/i18n/i18n";
-import "@/services/dayjs/dayjs";
+import "@/lib/i18next/i18n";
+import "@/lib/dayjs/dayjs";
 
 import { Stack } from "expo-router";
 

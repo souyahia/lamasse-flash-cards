@@ -10,7 +10,7 @@ module.exports = {
     "import/resolver": {
       typescript: true,
       node: true,
-      paths: ["/"],
+      paths: ["./"],
     },
   },
   rules: {
