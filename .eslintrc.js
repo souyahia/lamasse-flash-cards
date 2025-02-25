@@ -14,7 +14,21 @@ module.exports = {
     },
   },
   rules: {
+    "react/prop-types": "off",
     // ------ Imports
+    "@typescript-eslint/no-restricted-imports": [
+        "error",
+        {
+          paths: [
+            {
+              name: "lucide-react-native",
+              message:
+                "Don't import directly from lucide-react-native. Use @/components/Icon instead.",
+              allowTypeImports: true,
+            },
+          ],
+        },
+      ],
     "@typescript-eslint/consistent-type-imports": [
       "error",
       { prefer: "type-imports", fixStyle: "separate-type-imports" },
