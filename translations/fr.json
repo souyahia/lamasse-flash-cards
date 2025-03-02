@@ -1,5 +1,12 @@
 {
   "App": {
-    "helloWorld": "Bonjour le monde!"
+    "library": {
+      "title": "Mes decks"
+    },
+    "accessibility": {
+      "back": "Retour arrière",
+      "settings": "Paramètres",
+      "createDeck": "Créer un nouveau deck"
+    }
   }
 }

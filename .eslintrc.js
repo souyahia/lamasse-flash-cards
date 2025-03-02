@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   extends: 'expo',
   ignorePatterns: ['/dist/*'],
@@ -8,9 +10,8 @@ module.exports = {
   ],
   settings: {
     "import/resolver": {
-      typescript: true,
-      node: true,
-      paths: ["./"],
+      typescript: {},
+      node: {},
     },
   },
   rules: {

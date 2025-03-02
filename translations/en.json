@@ -1,5 +1,12 @@
 {
   "App": {
-    "helloWorld": "Hello World!"
+    "library": {
+      "title": "My Decks"
+    },
+    "accessibility": {
+      "back": "Go back",
+      "settings": "Settings",
+      "createDeck": "Create new deck"
+    }
   }
 }
